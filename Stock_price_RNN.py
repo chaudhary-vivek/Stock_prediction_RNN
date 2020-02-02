@@ -6,21 +6,6 @@ import pandas as pd
 # Importing the training set
 dataset_train = pd.read_csv('Google_Stock_Price_Train.csv')
 
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 31 00:23:58 2020
-
-@author: Vivek
-"""
-
-# Importing the libraries
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
-# Importing the training set
-dataset_train = pd.read_csv('Google_Stock_Price_Train.csv')
-
 # The column "Open" are stored in training_set
 training_set = dataset_train.iloc[:, 1:2].values
 
